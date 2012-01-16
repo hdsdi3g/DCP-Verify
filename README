@@ -1,0 +1,24 @@
+Use DCPVerify to verify that your MXF files are valid with respect to declarations in XML files.
+
+Only tested with DCP created by OpenDCP
+
+=========================================================================================================================
+RUN THE APPLICATION
+
+Run directly java -jar dcpverify.jar /Directory/For/DCP/Files
+
+Min Java 1.6.
+MacOSX ok, Linux & Windows normally ok.
+
+No configuration, no special classpath.
+
+=========================================================================================================================
+ABOUT
+
+There is NO GUI (no user interface), and NO interactive mode in command line.
+
+=========================================================================================================================
+TODO
+
+ - GUI
+ - documentation in code for a cool javadoc
